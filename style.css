@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+button{
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: brown;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: coral;
+}
+
+#save-btn{
+    margin-top: 10px;
+    background-color: green;
+
+}
+#save-btn:hover{
+    background-color: darkgreen;
+}
+
+#reset-btn{
+    background-color: red;
+    margin-top: 10px;
+
+}
